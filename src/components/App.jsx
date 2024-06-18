@@ -31,8 +31,8 @@ export default class App extends Component {
     }
   }
 
-  handleChange = (ev) => {
-    const { name, value } = ev.currentTarget;
+  handleChange = (event) => {
+    const { name, value } = event.currentTarget;
     this.setState({
       [name]: value,
     });
